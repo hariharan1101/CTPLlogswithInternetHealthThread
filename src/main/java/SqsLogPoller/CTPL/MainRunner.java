@@ -10,7 +10,7 @@ public class MainRunner extends Thread{
 	static DbReader dr;       //made static so that it can be called directly from "DbReader" class 
 	static SingletonPoller sp;  // singleton object variable
 	static InternetConnectivityChecker icc;
-	int sleeptimer = 5000;
+
 	
 	public void run()
 	{   		
