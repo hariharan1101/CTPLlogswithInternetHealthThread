@@ -9,10 +9,6 @@ public class MainRunner extends Thread{
 	static DbReader dr;       //made static so that it can be called directly from "DbReader" class 
 	static SingletonPoller sp;  // singleton object variable
 	static InternetConnectivityChecker icc;
-	static ByteArrayOutputStream baos;
-	static String exceptionline1 = "AWS CloudTrail Processing Library encounters an uncaught exception. Unable to execute HTTP request: No route to host: no further information";
-	static String exceptionline2 = "Unable to execute HTTP request: No route to host: no further information";
-	static String exceptionline3 = "SEVERE: Executor failed to process a task. Unable to execute HTTP request: No route to host: no further information";
 	static PrintStream stream;
 	public void run()
 	{   		
