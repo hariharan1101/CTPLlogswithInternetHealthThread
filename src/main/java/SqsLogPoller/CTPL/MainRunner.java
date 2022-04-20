@@ -3,8 +3,6 @@ package SqsLogPoller.CTPL;
 import java.io.IOException;
 import com.amazonaws.SdkClientException;
 
-
-
 public class MainRunner extends Thread{
 	static MainRunner rn;
 	static DbReader dr;       //made static so that it can be called directly from "DbReader" class 
